@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnnB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_60sdp"
+        android:text="B"
+        android:textSize="@dimen/_40sdp"/>
+    <TextView
+        android:id="@+id/txvW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="M"
+        android:textSize="@dimen/_37sdp"
+        android:layout_marginHorizontal="@dimen/_130sdp"/>
+    <Button
+        android:id="@+id/bttnnI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_165sdp"
+        android:text="I"
+        android:textSize="@dimen/_40sdp"/>
+
+    <EditText
+        android:id="@+id/edttxtbm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:inputType="number"
+        android:hint="Enter Hight(CM)!"
+        android:layout_marginHorizontal="@dimen/_10sdp"/>
+
+    <EditText
+        android:id="@+id/edttxmb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edttxtbm"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:hint="Enter Weight(KG)!"
+        android:inputType="number" />
+        <Button
+            android:id="@+id/btnclcu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculate"
+            android:textSize="@dimen/_20sdp"
+            android:layout_below="@id/edttxmb"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/_20sdp"/>
+            <TextView
+                android:id="@+id/txtvew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Answer"
+                android:layout_below="@id/btnclcu"
+                android:textSize="@dimen/_20sdp"
+                android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
